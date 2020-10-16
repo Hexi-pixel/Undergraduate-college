@@ -1,0 +1,14 @@
+# Undergraduate-college
+Learn your own courses
+Change Money
+inculd <stdio.h>
+int main ()
+{
+int price = 0;
+printf ("Please enter the amount(yuan)");
+scanf ("%d,%price");
+int change = 100 - price;
+printf ("How much is your change %d\n",change);
+
+return 0;
+}
