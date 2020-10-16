@@ -12,3 +12,8 @@ printf ("How much is your change %d\n",change);
 
 return 0;
 }
+
+ps：1.若出现输入数值时控制台自己关闭，即程序未停止
+解：system("pause");
+    return 0
+    2.第10行int 在不同编译器中可存在亦不必存在
